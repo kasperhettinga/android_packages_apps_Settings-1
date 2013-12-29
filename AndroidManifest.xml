@@ -1713,7 +1713,10 @@
             android:theme="@style/CryptKeeperBlankTheme"
         />
 
-        <activity android:name=".LockscreenTargets" />
+        <activity
+            android:name=".LockscreenNotifications"
+            android:label="@string/Lockscreen_notifications_header" >
+        </activity>
 
         <activity android:name=".slim.privacyguard.PrivacyGuardManager" />
 
